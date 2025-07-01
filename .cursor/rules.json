@@ -1,0 +1,24 @@
+{
+  "rules": [
+    {
+      "name": "Fondation UI : Exclusivité Frosted UI",
+      "content": "Utiliser systématiquement le design system officiel de Whop, Frosted UI, pour tous les composants, le style et la mise en page. Ne pas introduire de fichiers CSS personnalisés, de styles en ligne (sauf pour des surcharges spécifiques dictées par l'API de Frosted UI), ni créer de palettes de couleurs ou de systèmes typographiques personnalisés. Importer 'frosted-ui/styles.css' et envelopper l'application dans le composant <Theme> de 'frosted-ui' dans le fichier de layout racine."
+    },
+    {
+      "name": "Branding : Couleur d'accent et identité Fataplus",
+      "content": "La couleur d'accent principale pour la marque Fataplus est le vert (#36B37E). Appliquer cette couleur *uniquement* aux éléments interactifs d'accentuation tels que les boutons principaux, les liens actifs et les mises en évidence. Utiliser la prop `color` du composant si disponible (ex : <Button color=\"#36B37E\">). Pour tous les autres éléments (arrière-plans, textes, bordures), adhérer strictement à la palette de couleurs par défaut de Frosted UI. Mettre à jour le titre principal et le slogan pour 'Connecter, apprendre, cultiver – ensemble' dans le layout principal sans altérer la structure de l'UI."
+    },
+    {
+      "name": "Utilisation des Composants et des Icônes",
+      "content": "Utiliser exclusivement les composants fournis par la bibliothèque Frosted UI (ex : Button, Input, Card). Se référer à la documentation officielle Storybook de Frosted UI pour les composants disponibles et leurs APIs. De même, privilégier l'utilisation des icônes et illustrations de la bibliothèque Frosted UI pour maintenir la cohérence visuelle."
+    },
+    {
+      "name": "Accessibilité",
+      "content": "S'appuyer sur les fonctionnalités d'accessibilité intégrées de Frosted UI. Ne pas ajouter d'attributs ARIA ou de rôles personnalisés, sauf en cas de création d'un composant complexe non fourni par Frosted UI. Faire confiance à la bibliothèque pour la gestion de la navigation au clavier, des contrastes de couleurs et de la compatibilité avec les lecteurs d'écran."
+    },
+    {
+      "name": "Résumé des interdictions",
+      "content": "Pour résumer : pas de CSS personnalisé (hors application de la couleur d'accent si nécessaire via les props), pas de palette de couleurs maison, pas de typographie personnalisée. Tout le reste doit provenir de Frosted UI."
+    }
+  ]
+} 

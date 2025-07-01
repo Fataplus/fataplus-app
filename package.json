@@ -15,10 +15,14 @@
     "@whop-sdk/core": "^0.0.7",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
+    "frosted-ui": "^0.0.28",
     "next": "13.2.4",
     "next-auth": "^4.18.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.39.0"
   }
 }
