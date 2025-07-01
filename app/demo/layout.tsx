@@ -11,7 +11,7 @@ import {
   Icon,
   Link,
   Text,
-} from "frosted-ui";
+} from "@whop/frosted-ui";
 import { redirect } from "next/navigation";
 import { PropsWithChildren } from "react";
 import PurchaseButton from "./PurchaseButton";

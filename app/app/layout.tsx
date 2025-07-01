@@ -1,6 +1,6 @@
 import { NextLayout } from "@/types/app-dir";
-import { Theme } from "frosted-ui";
-import "frosted-ui/styles.css";
+import { TooltipProvider, Toaster } from "@whop/frosted-ui";
+import "@whop/frosted-ui/dist/index.css";
 import "./globals.css";
 
 export const metadata = {
@@ -20,7 +20,10 @@ const RootLayout: NextLayout = ({ children }) => {
       */}
       <head />
       <body>
-        <Theme>{children}</Theme>
+        <TooltipProvider>
+          {children}
+          <Toaster />
+        </TooltipProvider>
       </body>
     </html>
   );

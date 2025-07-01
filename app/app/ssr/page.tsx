@@ -10,7 +10,7 @@ import {
   Icon,
   Link,
   Text,
-} from "frosted-ui";
+} from "@whop/frosted-ui";
 
 const Page: NextAppPage = async () => {
   const { sdk, user } = await getSdk();

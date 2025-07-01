@@ -1,5 +1,5 @@
-import AssistantIA from '@/app/components/AssistantIA';
-import { Container, Flex } from 'frosted-ui';
+import AssistantIA from '../components/AssistantIA';
+import { Container, Flex } from '@whop/frosted-ui';
 
 export const metadata = {
   title: 'Agent IA | Fataplus',
