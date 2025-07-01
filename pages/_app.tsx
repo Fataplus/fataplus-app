@@ -1,14 +1,15 @@
 import "../styles/globals.css";
-import "frosted-ui/styles.css";
+import "@whop/frosted-ui/dist/index.css";
 
 import type { AppProps } from "next/app";
-import { Theme } from "frosted-ui";
+import { TooltipProvider, Toaster } from "@whop/frosted-ui";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Theme>
+    <TooltipProvider>
       <Component {...pageProps} />
-    </Theme>
+      <Toaster />
+    </TooltipProvider>
   );
 }
 
