@@ -1,3 +1,5 @@
+"use client";
+
 import AssistantIA from '../components/AssistantIA';
 import { Container, Flex } from '@whop/frosted-ui';
 

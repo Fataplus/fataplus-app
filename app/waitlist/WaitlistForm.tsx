@@ -10,8 +10,7 @@ import {
   Icon,
   Text,
   TextField,
-  Theme,
-} from 'frosted-ui';
+} from '@whop/frosted-ui';
 import { useState } from 'react';
 
 type FormState =

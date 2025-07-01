@@ -11,7 +11,7 @@ import {
   Spinner,
   Text,
   TextArea,
-} from 'frosted-ui';
+} from '@whop/frosted-ui';
 import { useState } from 'react';
 import PurchaseButton from '../demo/PurchaseButton';
 

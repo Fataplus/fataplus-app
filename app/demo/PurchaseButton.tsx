@@ -1,7 +1,7 @@
 'use client';
 
 import { usePurchaseLink } from '@/lib/get-purchase-link';
-import { Button, Icon } from 'frosted-ui';
+import { Button, Icon } from '@whop/frosted-ui';
 
 export default function PurchaseButton({ planId }: { planId: string }) {
   const purchaseLink = usePurchaseLink(planId);
