@@ -1,3 +1,5 @@
+"use client";
+
 import { Box } from "@whop/frosted-ui";
 
 export default function WaitlistLayout({
